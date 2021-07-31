@@ -1,0 +1,33 @@
+body {
+    text-align:center;
+    background:linear-gradient(pink 20%, skyblue 50%)
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: coral;
+}
+#app {
+    height: 800px;
+    width: 100%;
+}
+#game {
+    height: 800px;
+    width: 100%;
+}
+#bot {
+    height: 800px;
+    width: 100%;
+}
+.line {
+    height: 10px;
+    width: 100px;
+    margin: 8px auto;
+    background-color: white;
+}
+img {
+    transition: 0.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
